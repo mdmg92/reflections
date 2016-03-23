@@ -1,3 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 It creates a hidden forlder named .git that will store metadata about the changes we commit to the files in the directory where we created the repository. We need git to do it, a directory for our repository and run the command git init on it
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Using git diff I can see the changes between the file on my working directory and the staging area, and check what are the changes. If more than one logical change have been made in the working directory, I can fix this before adding the file to the staging area and commit the change. I can also check before commiting with git dif --staged to make sure off the changes I'm about to make.
