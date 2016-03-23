@@ -21,3 +21,10 @@ history organized? How would branches help?
 When we want to add an experimental feature to the code, try new things 
 in the project or creating a new module that we don't want to be 
 reflected (yet) on the master branch.
+
+How do the diagrams help you visualize the branch structure?
+
+It make it easy to understand graphically than in the command lines, 
+because I was able to see a more clear representation of branches like 
+trees, indentify the parent of a branch and understand why a branche 
+can become innacessible
