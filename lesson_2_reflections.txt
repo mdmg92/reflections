@@ -35,3 +35,13 @@ Merge files comparing it with a third commit (the parent in common).
 The result is not a complete merge, rather a logical merge of the files 
 The representation was to see how the to branches come togheter once 
 the merge is done.
+
+What are the pros and cons of Git’s automatic merging vs. always doing 
+merges manually?
+
+The pro of automatic merging is that it takes less time. The cons is 
+when git can't resolve how to merge and has to ask for a manual merge
+The pros of manual merging is that we decide how to resolve conflicts 
+instead of leting git does it and breaks the code, but it demands
+certain aknowlodgment of the code and communications between 
+contributors to solve this
