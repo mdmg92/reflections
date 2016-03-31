@@ -30,4 +30,13 @@ Then I'll send back my files with the changes I made, and ask him to
 check it out. I don't think there is something easier on doing this, it
 will only become harder to collaborate because the owner of the project
 will have to manually find and check for the changes I have made, 
-notify me via email if he found something wrong and start over again.
+notify me via email if he found something wrong and start over again
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When working on a new feature, or doing experimental work, or simply
+when I want to have a different version of the repository. The 
+benefits of working directly in master is to have an up-to-date project
+this meaning less or none merge conflicts. Working with branches helps
+us to have our own version of a repository, and this is great when we
+want to differ something from the original project
