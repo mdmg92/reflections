@@ -15,3 +15,9 @@ versions of a repository.
 I use fork when I want to copy a project of GitHub to a repository of 
 mine. I use clone to copy an existing repository on GitHub to my 
 computer and I use branches to make different versions of a repository.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+That when I wish to commit a change to the remote, I won't have many
+conflicts between the both versions, since the ancestors of both will
+be more "reacheable"
