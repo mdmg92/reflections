@@ -21,3 +21,13 @@ What is the benefit of having a copy of the last known state of the remote store
 That when I wish to commit a change to the remote, I won't have many
 conflicts between the both versions, since the ancestors of both will
 be more "reacheable"
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I would ask the owner of the project to send my his repository (like 
+via email or something else) and make my own changes to the project. 
+Then I'll send back my files with the changes I made, and ask him to
+check it out. I don't think there is something easier on doing this, it
+will only become harder to collaborate because the owner of the project
+will have to manually find and check for the changes I have made, 
+notify me via email if he found something wrong and start over again.
